@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.myday {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-navbar {
+    padding: 20px;
+    width: 30vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #14346A;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+}
+
+.profile {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    padding-top: 10px;
+    width: 115.87px;
+    height: 104.87px;
+    object-fit: cover;
+    background-color: #F5B195;
+    border-radius: 50%;
+}
+
+
+.myday h1 {
+    font-family: 'Poppins';
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #CFE1F4;
+    text-align: center;
+}
+
+.features {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.features li {
+    margin-top: 20px;
+    width: 174.51px;
+    height: 42.23px;
+    background: #CFE1F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features li a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #14346A;
+}
+
+.features li:hover {
+    background: #FDF3D6;
+}
+
+.logout {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+    background: #F5B195;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+.logout p {
+    font-weight: 700;
+    font-size: 20px;
+    color: #14346A;
+}
+
+.jarak {
+    width: 18%;
+}
+
+.content-page {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 50px;
+    padding-bottom: 0;
+}
+
+.backgroundsvg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("units/latarlagi.svg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.containerDatetime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    background-color: #F8B097;
+    height: 100px;
+    width: 100%;
+    padding: 30px 0;
+    border-radius: 20px;
+}
+
+
+.containerNoteTask{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 160px;
+    margin-right: -50px;
+    margin-left: -50px;
+} 
+
+.date{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+    background-color: none;
+    color: #14346A;
+    font-size: 40px;
+    border-radius: 8px;
+    height: 80px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.time{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700;
+    background-color: none;
+    color: #14346A;
+    font-size: 40px;
+    border-radius: 8px;
+    height: 80px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+
+.Tasklist{
+    width: 50%;
+    height: 100%;
+    background-color: #F8B097;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.judul-note{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.judul-task {
+    border-radius: 10px;
+    background-color: #14346A;
+    padding: 5px;
+    transform: translateY(-70%);
+    width: 100px;
+}
+
+.judul-task h1{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 25px;
+    color: #FFF9EF;
+    text-align: center;
+    margin-top: 0;
+}
+
+.container .list-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+
+.list-box::-webkit-scrollbar {
+    width: 0px;
+}
+
+.list-box p {
+    background-color: #14346A;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #FFF9EF;
+    padding: 10px;
+}

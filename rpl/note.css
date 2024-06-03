@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.myday {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-navbar {
+    padding: 10px;
+    width: 35.5vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #14346A;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+} 
+
+
+
+.profile {
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    width: 115.87px;
+    height: 104.87px;
+    padding: 10px;
+    object-fit: cover;
+    background-color: #F5B195;
+    border-radius: 50%;
+    position: relative;
+    transform: translateY(-40px);
+}
+
+
+.myday h1 {
+    font-family: 'Poppins';
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #CFE1F4;
+    text-align: center;
+    transform: translateY(175px);
+}
+
+.profile{
+    position: fixed;
+    width: 115.87px;
+    height: 112.87px;
+    left: 72.45px;
+    top: 60.04px;
+    padding-top: 100px;
+    object-fit: cover;
+    background: #F5B195;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.features {
+    margin-top: 177.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.features li {
+    margin-top: 19.5px;
+    width: 174.51px;
+    height: 42.5px;
+    background: #CFE1F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.features li a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #14346A;
+    text-decoration: none;
+    text-align: center;
+}
+
+.features li:hover {
+    background: #FDF3D6;
+}
+
+.logout {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height:40px;
+    background: #F5B195;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.logout p {
+    margin: 20;
+    text-align: center;
+    font-weight: 0;
+    font-size: 20px;
+    color: #14346A;
+}
+
+.logout a {
+    text-decoration: none; 
+    color: inherit;
+} 
+
+
+.backgrounds{
+    position: fixed;
+    top: 0;
+    left: 200;
+    width: 100%;
+    height: 100%;
+    background-image: url(units/latarnotess.svg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+
+.taskBox{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 50%;
+    top: 40px;
+    background: #F5B195;
+    box-shadow: 0px 3.20208px 3.20208px rgba(0, 0, 0, 0.25);
+    border-radius: 8.00521px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noteDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    overflow-y: scroll;
+}
+
+.noteDisplay::-webkit-scrollbar {
+    width: 0px;
+}
+
+.noteTitle{
+    font-weight: 500;
+    font-size: 19.2125px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    color: #FFF4E0;   
+    text-decoration: none;
+}
+
+.addnote{
+    margin-left: 20px;
+}

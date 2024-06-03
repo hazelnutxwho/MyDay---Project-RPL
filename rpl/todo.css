@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.myday {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.side-navbar {
+    padding: 20px;
+    width: 30vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #14346a;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+}
+
+
+.profile {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    padding-top: 10px;
+    width: 115.87px;
+    height: 104.87px;
+    object-fit: cover;
+    background-color: #F5B195;
+    border-radius: 50%;
+}
+
+.myday h1 {
+    font-family: 'Poppins';
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #CFE1F4;
+    text-align: center;
+}
+
+.features {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.features li {
+    margin-top: 20px;
+    width: 174.51px;
+    height: 42.23px;
+    background: #CFE1F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.features li a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #14346A; 
+}
+
+.features li:hover {
+    background: #FDF3D6;
+}
+
+.logout {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+    background: #F5B195;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.logout p {
+    font-weight: 700;
+    font-size: 20px;
+    color: #14346A
+}
+
+
+.jarak {
+    width: 18.2%;
+}
+
+.content-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.backgroundsvg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index:-1;
+}
+
+.add-task {
+    margin-top: 100px;
+}
+
+.add-task-box {
+    display: flex;
+    justify-content: left;
+    height: 37px;
+    width: 1000px;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.add-task-box button,
+.add-task-box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #14346A;
+    font-weight: 400;
+    font-size: 20px;
+    color: #CFE1F4 !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-task-box input::placeholder {
+    color: #CFE1F4 !important;
+}
+
+
+.add-task-box button {
+    width: 50px;
+    cursor: pointer;
+}
+
+.task-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 55px;
+    margin-bottom: 100px;
+    grid-gap: 30px;
+}
+
+.task-list-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.judul-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #14346A;
+    border-radius: 9px;
+    width: 150px;
+    height: 35px;
+    transform: translateY(50%);
+}
+
+.judul-box p {
+    font-weight: 400;
+    font-size: 25px;
+    color: #CFE1F4;
+}
+
+.konten-box {
+    width: 300px;
+    height: 309px;
+    background: #F5B195;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.isi-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    overflow-y: scroll;
+}
+
+
+.isi-list::-webkit-scrollbar {
+    width: 0px;
+}
+
+.isi-list-box {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-direction: row;
+    width: 280px;
+    height: 35px;
+    background: #14346A;
+    border-radius: 9px;
+    align-items: center;
+}
+
+.isi-list-box a{
+    text-align: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.isi-list-box p {
+    line-height: 18px;
+    font-weight: 400;
+    width: 180px;
+    font-size: 18px;
+    color: #14346A;
+    margin-left: 10px;
+    color: #CFE1F4;
+
+}
+
+.isi-list-box input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #F5B195;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.isi-list-box input[type="checkbox"]:checked+p {
+    text-decoration: line-through;
+}
+
+.isi-list-box input[type="checkbox"]:checked:after {
+    content: '\2713';
+    font-size: 12px;
+    color: #F5B195;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.isi-list-box input[type="checkbox"]:checked {
+    transform: scale(1);
+    border-color: #F5B195; 
+}
+
+.add-list-button{
+    background-color: #14346A;
+    height: 35px;
+    width: 120px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.form-wrap{
+    display: flex;
+    
+}
+
+.form-wrap input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F5B195;
+    width: 200px;
+    text-indent: 5px;
+    height: 10px;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.button-wrap{
+    display: grid;
+    grid-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.add-list-button button{
+    font-size: 15px;
+    font-weight: 500;
+    color: #14346A;
+    background-color: transparent;
+    border: none;
+    outline: none;
+} 
+
+.add-list-button:hover{
+    cursor: pointer;
+}
+
+.add-list-button button:hover{
+    cursor: pointer;
+}
+
+.blank{
+    margin-bottom: 109px;
+}
