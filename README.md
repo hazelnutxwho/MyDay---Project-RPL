@@ -1,4 +1,4 @@
-# MyDay---Project-RPL
+# MyDay
 
 MyDay is a simple website that aims to help increase productivity by managing time and priorities in the form of notes and to-do lists
 
